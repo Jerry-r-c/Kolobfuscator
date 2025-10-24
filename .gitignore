@@ -1,62 +1,37 @@
 # macOS-specific files
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-
 ._*
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
 .TemporaryItems
 .Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
 .apdisk
 
-# C++ compiled output files
-*.o
-*.obj
-*.exe
-*.out
-*.app
-*.so
-*.dylib
-*.dll
-*.a
-*.lib
-*.pdb
-
-# C++ build directories
-build/
-bin/
-obj/
-Debug/
-Release/
-
 # IDE-specific files
-/.vs/                  # Visual Studio
-*.suo
-*.user
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.code-workspace       # VS Code
-.idea/                # JetBrains IDEs
+.vscode/
+.idea/
+*.code-workspace
 *.iml
 
-# Project-specific files
+# Lua-specific files
+*.luac
+*.lua~
 file_obfuscated.lua
 file.lua
 tests/
 
-# Other common ignores
+# Roblox-specific files
+*.rbxm
+*.rbxmx
+*.rbxl
+*.rbxlx
+
+# General ignores
 *.log
 *.bak
 *.tmp
 *.swp
 *.cache
+.env
+secrets.lua
